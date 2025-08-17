@@ -21,12 +21,7 @@ This screenshot illustrates the current state of the data pipeline execution int
 
 This screenshot illustrates the current state of the data pipeline execution interface.
 
-## 🧱 Data Warehouse Architecture
-
-This diagram illustrates the end-to-end flow from raw data ingestion to business-ready consumption, following a layered approach:
-
-![Data Warehouse Architecture](images/screenshot_2025_08_17.png)
-
+![Uploading Screenshot 2025-08-17 101653.png…]()
 
 
 
