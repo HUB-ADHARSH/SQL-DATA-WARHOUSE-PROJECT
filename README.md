@@ -13,6 +13,9 @@ Designed as a portfolio project, it highlights industry best practices in data e
 
 This repository outlines the step-by-step development of a modern data warehouse using SQL Server. Each phase is broken down into epics and tasks to guide implementation and ensure best practices.
 
+![Architecture Diagram](<img width="1147" height="570" alt="Screenshot 2025-08-17 101653" src="https://github.com/user-attachments/assets/02edcfc7-bb6f-4782-99fa-a8ce8f226496" />
+)
+
 ---
 
 🏗️ Data Architecture  
