@@ -13,7 +13,7 @@ Designed as a portfolio project, it highlights industry best practices in data e
 
 This repository outlines the step-by-step development of a modern data warehouse using SQL Server. Each phase is broken down into epics and tasks to guide implementation and ensure best practices.
 
-![<img width="1147" height="570" alt="Screenshot 2025-08-17 101653" src="https://github.com/user-attachments/assets/bce70917-d2f0-4b71-b616-81b7ca5f511e" />
+![[<img width="1147" height="570" alt="Screenshot 2025-08-17 101653" src="https://github.com/user-attachments/assets/bce70917-d2f0-4b71-b616-81b7ca5f511e" />](https://github.com/DataWithBaraa/sql-data-warehouse-project/raw/main/docs/data_architecture.png)
 ](images/architecture.png)
 
 
