@@ -13,7 +13,11 @@ Designed as a portfolio project, it highlights industry best practices in data e
 
 This repository outlines the step-by-step development of a modern data warehouse using SQL Server. Each phase is broken down into epics and tasks to guide implementation and ensure best practices.
 
-!["C:\Users\adhar\OneDrive\Documents\Screenshot 2025-08-17 101653.png"](images/your-image-name.png)
+## 📸 Screenshot Overview
+
+This screenshot illustrates the current state of the data pipeline execution interface.
+
+![Screenshot of Data Pipeline](images/screenshot_2025_08_17.png)
 
 
 
