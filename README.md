@@ -15,98 +15,115 @@ This repository outlines the step-by-step development of a modern data warehouse
 
 ---
 
-## 📌 Requirements Analysis
+🏗️ Data Architecture  
+The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 
-**Epics**
-- Analyse & Understand the Requirements
-
----
-
-## 🧱 Design Data Architecture
-
-**Epics**
-- Choose Data Management Approach  
-- Design the Layers  
-- Draw the Data Architecture (Draw.io)
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.  
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.  
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
 
-## 🚀 Project Initialization
+📖 Project Overview
 
-**Epics**
-- Project Initialization
+This project involves:
 
-**Tasks**
-- Create Detailed Project Tasks (Notion)  
-- Define Project Naming Conventions  
-- Create Git Repo & Prepare The Repo Structure  
-- Create Database & Schemas
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.  
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.  
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.  
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
 
-## 🟫 Build Bronze Layer
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 
-**Epics**
-- Build Bronze Layer
-
-**Tasks**
-- Analysing: Source Systems  
-- Coding: Data Ingestion  
-- Validating: Data Completeness & Schema Checks  
-- Document: Draw Data Flow (Draw.io)  
-- Commit Code in Git Repo
+- SQL Development  
+- Data Architect  
+- Data Engineering  
+- ETL Pipeline Developer  
+- Data Modeling  
+- Data Analytics
 
 ---
 
-## 🪙 Build Silver Layer
+🛠️ Important Links & Tools:
 
-**Epics**
-- Build Silver Layer
+Everything is for Free!
 
-**Tasks**
-- Analysing: Explore & Understand Data  
-- Coding: Data Cleansing  
-- Validating: Data Correctness Checks  
-- Documenting & Versioning in GIT  
-- Commit Code in Git Repo
-
----
-
-## 🟡 Build Gold Layer
-
-**Epics**
-- Build Gold Layer
-
-**Tasks**
-- Analysing: Explore Business Objects  
-- Coding: Data Integration  
-- Validating: Data Integration Checks  
-- Document: Draw Data Model of Star Schema (Draw.io)  
-- Document: Create Data Catalog
+- **Datasets**: Access to the project dataset (CSV files).  
+- **SQL Server Express**: Lightweight server for hosting your SQL database.  
+- **SQL Server Management Studio (SSMS)**: GUI for managing and interacting with databases.  
+- **Git Repository**: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.  
+- **DrawIO**: Design data architecture, models, flows, and diagrams.  
+- **Notion**: Get the Project Template from Notion.  
+- **Notion Project Steps**: Access to All Project Phases and Tasks.
 
 ---
 
-# 📊 BI: Analytics & Reporting (Data Analytics)
+🚀 Project Requirements  
+**Building the Data Warehouse (Data Engineering)**
 
-## 🎯 Objective
+**Objective**  
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
+**Specifications**  
+1. **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.  
+2. **Data Quality**: Cleanse and resolve data quality issues prior to analysis.  
+3. **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.  
+4. **Scope**: Focus on the latest dataset only; historization of data is not required.  
+5. **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
+
+📊 BI: Analytics & Reporting (Data Analysis)
+
+**Objective**  
 Develop SQL-based analytics to deliver detailed insights into:
+
 - Customer Behavior  
 - Product Performance  
-- Sales Trends  
+- Sales Trends
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+📄 For more details, refer to `docs/requirements.md`.
+
+---
+
+📂 Repository Structure
+
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file shows all different techniques and methods of ETL
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-You are free to use, modify, and share this project with proper attribution.
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ---
 
-## 👤 About Me
+🌟 About Me
 
-Hi there! I'm Baraa Khatib Salkini, also known as **Data With Baraa**.  
-I'm an IT professional and passionate YouTuber on a mission to share knowledge and make working with data enjoyable and engaging!
