@@ -15,16 +15,34 @@ This repository outlines the step-by-step development of a modern data warehouse
 
 ---
 
-🏗️ Data Architecture  
+🏗️ DATA ARCHITECTURE 
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.  
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.  
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
+### 🔹 LAYER BREAKDOWN
+
+- **Bronze Layer**
+  - Stores raw data exactly as received from source systems (e.g., CSV files).
+  - Preserves original fidelity for traceability and reprocessing.
+  - Loaded into SQL Server staging tables using bulk insert scripts with error handling and logging.
+
+- **Silver Layer**
+  - Cleanses and standardizes data (e.g., formats, null handling).
+  - Normalizes multi-valued fields and applies basic transformation logic.
+  - Produces structured, reliable data ready for modeling.
+
+- **Gold Layer**
+  - Models data into star schemas (fact and dimension tables).
+  - Applies business rules for reporting and analytics.
+  - Optimized for BI tools like Power BI or Tableau.
+  - Includes execution time tracking and audit logging for performance and traceability.
+
 ---
 
-📖 Project Overview
+📖 PROJECT OVERVIEW
 
 This project involves:
 
@@ -35,32 +53,7 @@ This project involves:
 
 ---
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-
-- SQL Development  
-- Data Architect  
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics
-
----
-
-🛠️ Important Links & Tools:
-
-Everything is for Free!
-
-- **Datasets**: Access to the project dataset (CSV files).  
-- **SQL Server Express**: Lightweight server for hosting your SQL database.  
-- **SQL Server Management Studio (SSMS)**: GUI for managing and interacting with databases.  
-- **Git Repository**: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.  
-- **DrawIO**: Design data architecture, models, flows, and diagrams.  
-- **Notion**: Get the Project Template from Notion.  
-- **Notion Project Steps**: Access to All Project Phases and Tasks.
-
----
-
-🚀 Project Requirements  
+🚀 PROJECT REQUIRMENTS  
 **Building the Data Warehouse (Data Engineering)**
 
 **Objective**  
@@ -75,7 +68,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-📊 BI: Analytics & Reporting (Data Analysis)
+📊 BI : ANALYTICS & REPORTING (Data Analysis)
 
 **Objective**  
 Develop SQL-based analytics to deliver detailed insights into:
@@ -90,7 +83,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
-## 📁 Repository Structure
+## 📁 REPOSITORY STRUCTURE
 
 | Folder/File                | Description                                                  |
 |---------------------------|--------------------------------------------------------------|
@@ -116,11 +109,11 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
-## 📄 License
+## 📄 LICENSE
 
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ---
 
-🌟 About Me
+🌟 ABOUT ME
 
