@@ -16,8 +16,8 @@ This repository outlines the step-by-step development of a modern data warehouse
 ## 📸 Screenshot Overview
 
 This screenshot illustrates the current state of the data pipeline execution interface.
+![Screenshot](images/screenshot_2025_08_17.png)
 
-![Screenshot of Data Pipeline](images/screenshot_2025_08_17.png)
 
 
 
