@@ -121,6 +121,8 @@ This project is licensed under the MIT License. You are free to use, modify, and
 ---
 
 🌟 ABOUT ME
+
+ADHARSH C ==> ARTIFICIAL INTELLIGENCE & DATA SCIENCE ENGINEER
 ---
 
 
